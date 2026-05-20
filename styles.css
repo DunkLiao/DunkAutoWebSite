@@ -953,6 +953,9 @@ img {
     .nav-menu {
         display: none;
     }
+    .nav-menu.active {
+        display: flex;
+    }
 }
 
 @media (max-width: 768px) {
@@ -988,6 +991,7 @@ img {
     
     .nav-menu.active {
         left: 0;
+        display: flex;
     }
     
     .hamburger {
